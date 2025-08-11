@@ -64,7 +64,7 @@ fun OnboardingPager(onFinish: () -> Unit) {
                 val active = i == page
                 Box(modifier = Modifier
                     .size(if (active) 16.dp else 10.dp)
-                    .background(MaterialTheme.colorScheme.primary, shape = MaterialTheme.shapes.small)
+                    .background(MaterialTheme.colorScheme.background, shape = CircleShape)
                     .clickable { page = i })
             }
             Spacer(Modifier.width(8.dp))
@@ -105,10 +105,16 @@ fun MainScreen() {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Market") },
+                title = {
+                    Text(
+                        "Market",
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                },
+                backgroundColor = MaterialTheme.colorScheme.background,
                 actions = {
                     IconButton(onClick = { /* TODO settings */ }) {
-                        Icon(Icons.Default.Settings, contentDescription = "Settings")
+                        Icon(Icons.Default.Settings, contentDescription = "Settings", tint = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
             )
