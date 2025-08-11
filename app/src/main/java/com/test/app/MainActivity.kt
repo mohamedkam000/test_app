@@ -11,8 +11,9 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.*
 import androidx.compose.material3.*
-import androidx.compose.material3.icons.*
-import androidx.compose.material3.icons.filled.Settings
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Settings
+//import androidx.compose.material3.icons.filled.Settings
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
