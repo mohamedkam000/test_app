@@ -9,11 +9,9 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.stickyHeader
+import androidx.compose.foundation.lazy.*
 import androidx.compose.material3.*
-import androidx.compose.material3.icons.Icons
+import androidx.compose.material3.icons.*
 import androidx.compose.material3.icons.filled.Settings
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment

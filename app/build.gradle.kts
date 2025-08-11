@@ -72,7 +72,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.10.0-alpha01")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0-alpha01")
     implementation("androidx.compose.material3:material3-window-size-class:1.5.0-alpha01")
-    implementation("io.coil-kt.coil3:coil-compose:3.3.0")
+    implementation("io.coil-kt:coil-compose:2.7.0")
 //    implementation("com.google.accompanist:accompanist-systemuicontroller:0.36.0")
 //    implementation("com.airbnb.android:lottie-compose:6.6.7")
 //    implementation("com.github.spotbugs:spotbugs-annotations:4.9.3")
