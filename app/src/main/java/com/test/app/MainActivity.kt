@@ -112,7 +112,8 @@ fun MainScreen() {
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 },
-                backgroundColor = MaterialTheme.colorScheme.background,
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.background),
                 actions = {
                     IconButton(onClick = { /* TODO settings */ }) {
                         Icon(Icons.Default.Settings, contentDescription = "Settings", tint = MaterialTheme.colorScheme.onSurfaceVariant)
