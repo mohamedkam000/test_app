@@ -6,13 +6,10 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="Test App"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PriceViewer"
+        android:theme="@style/Theme.Test"
         tools:targetApi="35">
         <activity
             android:name=".MainActivity"
